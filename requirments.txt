@@ -1,0 +1,9 @@
+python-dotenv
+parsel
+unidecode
+webdriver_manager
+selenium
+wheel
+psycopg2
+pandas
+flask
