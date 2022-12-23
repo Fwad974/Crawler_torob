@@ -33,8 +33,8 @@ An example of using api
 curl --request POST \
   --url http://127.0.0.1:5000/filter \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: 2d6d3a9a-b793-b622-fd4d-ce5c4abe8ea4' \
-  --data '{\n    "Capacity":{\n        "less":5000,\n        "more":2000\n    },\n    "Price":{\n        "more":100000,\n        "less":50000\n    },\n    "Seller":["مبیت", "زیکتز"],\n    "Model":["مبیت", "زیکتز"]\n    \n}'
+  --header 'content-type: application/json' \
+  --data '{\n    \n\n    "Seller":["مبیت", "زیکتز"]}'
 ```
 
 
